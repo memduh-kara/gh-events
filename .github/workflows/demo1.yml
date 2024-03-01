@@ -5,7 +5,7 @@ on:
       - opened
   push: 
     branches: 
-      - main #main
+      - master #main
       - 'dev-*' # all branches strting with dev-
       - 'feat/**' # feat/new feat/new/button etc
     paths: 
